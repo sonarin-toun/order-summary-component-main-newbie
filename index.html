@@ -12,46 +12,52 @@
       href="./images/favicon-32x32.png"
     />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
     <title>Frontend Mentor | Order summary card</title>
 
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
+    <link rel="stylesheet" href="./styles/css/main.css">
+
+
   </head>
   <body>
-    <div class="container">
+    <article>
       <div class="sub-container">
-      <h2 class="card-title">Order Summary</h2>
+        <h2>Order Summary</h2>
 
-      <p>
-        You can now listen to millions of songs, audiobooks, and podcasts on any
-        device anywhere you like!
-      </p>
+        <p>
+          You can now listen to millions of songs, audiobooks, and podcasts on
+          any device anywhere you like!
+        </p>
 
-      <div class="product-container">
-        Annual Plan $59.99/year
+        <div class="product-info">
+          <img src="./images/icon-music.svg" />
 
-        <a href="#">Change</a>
+          <div>
+            <p class="product-plan">Annual Plan</p>
+            <p class="product-price">$59.99/year</p>
+          </div>
+
+          <a href="#">Change</a>
+        </div>
+
+        <button>Proceed to Payment</button>
+        <a href="#">Cancel Order</a>
       </div>
-
-      <button>Proceed to Payment</button>
-      <a href="#">Cancel Order</a>
-    </div>
-    <img src = "./images/illustration-hero.svg"></img>
-    </div>
-
+      <img src="./images/illustration-hero.svg" />
+    </article>
+    <!--
     <div class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
       >. Coded by <a href="#">Your Name Here</a>.
     </div>
+    -->
   </body>
 </html>

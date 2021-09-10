@@ -1,0 +1,27 @@
+{
+  "name": "order-summary-component-main-newbie",
+  "version": "1.0.0",
+  "description": "![Design preview for the Order summary card coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://sonarin-toun@bitbucket.org/sonarin-toun/order-summary-component-main-newbie.git"
+  },
+  "author": "Sonarin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bitbucket.org/sonarin-toun/order-summary-component-main-newbie/issues"
+  },
+  "homepage": "https://bitbucket.org/sonarin-toun/order-summary-component-main-newbie#readme",
+  "dependencies": {
+    "vite": "^2.5.4"
+  },
+  "devDependencies": {
+    "sass": "^1.39.0"
+  }
+}
