@@ -80,7 +80,7 @@ main {
 
   > h1 {
     font-weight: $font-weight-black;
-    font-size: $font-size-28;
+    /*font-size: $font-size-28;*/
     margin-bottom: 17px;
 
     @media (max-width: 480px) {
@@ -92,7 +92,6 @@ main {
   > p {
     color: $color-gray;
     line-height: 26px;
-
     margin-bottom: 20px;
 
     @media (max-width: 480px) {
@@ -130,7 +129,7 @@ main {
   > a {
     color: $color-gray;
     font-weight: $font-weight-black;
-    font-size: $font-size-15;
+    font-size: $font-size-14;
     text-decoration: none;
 
     &:hover, &:active {
