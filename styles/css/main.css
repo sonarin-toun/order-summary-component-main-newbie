@@ -60,7 +60,6 @@ main {
 
 .sub-container > h1 {
   font-size: calc(1rem * (28 / 16));
-  font-size: 1rem;
   margin-bottom: 17px;
 }
 
