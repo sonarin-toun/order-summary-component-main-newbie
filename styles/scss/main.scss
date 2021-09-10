@@ -79,8 +79,7 @@ main {
   }
 
   > h1 {
-    font-weight: $font-weight-black;
-    /*font-size: $font-size-28;*/
+    font-size: $font-size-28;
     font-size: 1rem;
     margin-bottom: 17px;
 
@@ -186,7 +185,7 @@ main {
 
   > a {
     margin-left: auto;
-    font-size: $font-size-14;
+    font-size: $font-size-15;
     color: $color-main;
     font-weight: $font-weight-bold;
 

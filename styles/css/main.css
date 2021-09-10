@@ -59,8 +59,7 @@ main {
 }
 
 .sub-container > h1 {
-  font-weight: 900;
-  /*font-size: $font-size-28;*/
+  font-size: calc(1rem * (28 / 16));
   font-size: 1rem;
   margin-bottom: 17px;
 }
@@ -175,7 +174,7 @@ main {
 
 .product-info > a {
   margin-left: auto;
-  font-size: calc(1rem * (14 / 16));
+  font-size: calc(1rem * (15 / 16));
   color: #382ae1;
   font-weight: 700;
 }
